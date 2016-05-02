@@ -4,7 +4,7 @@ var bodyParser = require('body-parser');
 
 // Express Setup
 var app = express();
-var PORT = process.env.PORT || 3000; // Sets an initial port
+var PORT = process.env.PORT || 8070; // Sets an initial port
 
 // Makes header requests easier fot the server to interpret
 app.use(bodyParser.json());
@@ -13,9 +13,10 @@ app.use(bodyParser.text());
 app.use(bodyParser.json({type:'application/vnd.api+json'}));
 
 // Routing
-app.get('/characters', function(req,res){
-	res.sendFile(path.join(__dirname + '/characters.html'));
-});
+var staticContentFolder = __dirname + '/public';
+app.use(express.static(staticContentFolder));
+require('./routing/apiRoutes.js')(app);
+require('./routing/htmlRoutes.js')(app);
 
 // Listener
 app.listen(PORT, function() {
