@@ -12,8 +12,10 @@ module.exports = function(app){
 
 	// API POST Requests
 	app.post('/api/friends', function(req, res){
-		tableData.push(req.body);
+		
+		friendData.push(req.body);
 		res.json(true); // respond with confirmation that data was added successfully
+		console.log(friendData);
 	});
 
 }
