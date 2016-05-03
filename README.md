@@ -18,7 +18,7 @@ cd *path*/friend-finder-node-app/
 npm install
 ```
 
-3) Navigate to http://localhost:8070/ to ensure server to view the landing page.
+3) Navigate to http://localhost:8070/ to ensure server is running and to view the landing page.
 
 4) Click the button on the landing page or go directly to http://localhost:8070/survey to fill out the survey.
 
