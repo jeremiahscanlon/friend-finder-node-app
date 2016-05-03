@@ -28,7 +28,7 @@ node friendServer.js
 
 5) Click the button on the landing page or go directly to http://localhost:8070/survey to fill out the survey.
 
-6) Upon submit you will be greated by a modal showing the name and image link of the "friend" that showed the smallest difference in the overall value of the questions you chose.
+6) Upon submit you will be greated by a modal showing the name and image link of the "friend" that showed the smallest difference between the answers of each of the questions.
 
 ## Notes
 
