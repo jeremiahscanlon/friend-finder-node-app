@@ -32,7 +32,7 @@ npm install
 
 - Res-starting the server will reset any entries added via the survey.
 
-- The app only consists of 2 html pages ... /survey and everything else with loads to the welcome page with a link to the survey.
+- The app only consists of 2 html pages ... /survey and everything else which loads to the welcome page.
 
 
 ## Questions
