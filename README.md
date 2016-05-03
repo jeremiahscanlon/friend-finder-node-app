@@ -28,7 +28,7 @@ npm install
 
 - The Port is set to the default for the environment or if one is not setup it will choose 8070.
 
-- At launch there are three "friends" in the object at the start.
+- There are three "friends" in the object at the start.
 
 - Res-starting the server will reset any entries added via the survey.
 
