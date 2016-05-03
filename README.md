@@ -18,9 +18,9 @@ cd *path*/friend-finder-node-app/
 npm install
 ```
 
-3) Navigate to *http://localhost:8070/* to ensure server to view the landing page.
+3) Navigate to http://localhost:8070/ to ensure server to view the landing page.
 
-4) Click the button on the landing page or go directly to *http://localhost:8070/survey* to fill out the survey.
+4) Click the button on the landing page or go directly to http://localhost:8070/survey to fill out the survey.
 
 5) Upon submit you will be greated by a modal showing the name and image link of the "friend" that showed the smallest difference in the overall value of the questions you chose.
 
