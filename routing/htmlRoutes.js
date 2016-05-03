@@ -1,4 +1,3 @@
-console.log('htmlRoutes Connected');
 // Requires
 var path = require('path');
 
