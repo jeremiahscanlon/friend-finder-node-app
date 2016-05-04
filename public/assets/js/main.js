@@ -37,6 +37,11 @@ $(document).ready (function(){
 			$('#modalBody').append('<img class="center-block" src="'+data.photo+'" alt="'+data.name+'" style="max-width:100%">');
 			// show the modal
 			$('#myModal').modal('show');
+			// reset the test 
+			$( '#name' ).val('');
+			$( '#imageURL' ).val('');
+			$('.btn').removeClass('selcted');
+
 		});
 	};
 
