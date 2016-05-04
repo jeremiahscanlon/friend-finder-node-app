@@ -4,7 +4,8 @@
   "description": "Survey app build in Node and using Express for server and routing",
   "main": "friendServer.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node friendServer.js"
   },
   "repository": {
     "type": "git",
