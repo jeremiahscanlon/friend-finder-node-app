@@ -4,7 +4,7 @@ var bodyParser = require('body-parser');
 
 // Express Setup
 var app = express();
-var PORT = process.env.PORT || 8070; // Sets an initial port
+var PORT = process.env.PORT || 80; // Sets an initial port
 
 // Makes header requests easier fot the server to interpret
 app.use(bodyParser.json());
