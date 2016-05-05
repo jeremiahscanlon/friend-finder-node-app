@@ -1,6 +1,8 @@
 # friend-finder-node-app
 Survey app build in Node and using Express for server and routing
 
+Currently deployed at: http://fathomless-springs-74762.herokuapp.com/
+
 Web application built using node.js that uses express for server and routing. Users fill out an information sheet with questions. Upon submit the information is sent to the node api layer and the closest match is sent back. Currently data is just stored on a server side javascript object.
  
 ## Instructions to run locally 
